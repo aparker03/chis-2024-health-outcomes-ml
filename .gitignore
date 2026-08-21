@@ -1,0 +1,20 @@
+# Data files are not redistributed in this repository
+*.csv
+*.dta
+*.sav
+*.sas7bdat
+*.zip
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local system files
+.DS_Store
+Thumbs.db
