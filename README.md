@@ -36,9 +36,11 @@ notebooks/
 └── 05_ann.ipynb
 ```
 
-## Data access
+## Data access and reproducibility
 
-CHIS data are not redistributed in this repository. The source data should be obtained directly from the UCLA Center for Health Policy Research. The shared cleaning and split notebook documents the preparation of the modeling cohort and the fixed train/test files used by the model notebooks.
+CHIS data are not redistributed in this repository. The source data should be obtained directly from the UCLA Center for Health Policy Research. The shared cleaning and split notebook documents preparation of the modeling cohort and the fixed train/test files used by the model notebooks.
+
+The model notebooks expect the prepared `CHIS_2024_train.csv` and `CHIS_2024_test.csv` files. Because the original team notebooks were developed in Google Colab, some data-loading cells reference Google Drive locations used during the course project. To reproduce the workflows, place the prepared train/test files in an accessible location and update the data path in the notebook if needed. Model results reported in the notebooks were generated from the same fixed training and held-out test respondents.
 
 ## Contributors
 
